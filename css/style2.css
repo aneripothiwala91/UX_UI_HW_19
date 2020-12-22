@@ -13,6 +13,7 @@
     top: 0px;
     background: rgba(253, 210, 68, 0.479);
     opacity: 0.22;
+    z-index: -1;
     }
 
     .aboutcontent{
@@ -69,22 +70,46 @@
     }
 
 
-    #buttontitle1, #buttonlist1{
-        display: none;
+     #buttonlist1{
+        /* display: none; */
+        opacity:0;
     }
 
-    #buttontitle2, #buttonlist2{
+    #buttonlist2{
         display: none;
+        opacity:0;
     }
 
-    #buttontitle3, #buttonlist3{
+    #buttonlist3{
         display: none;
+        opacity:0;
     }
 
-    #buttontitle4, #buttonlist4{
+    #buttonlist4{
         display: none;
+        opacity:0;
     }
 
+    .active{
+        opacity:1;
+        transition:opacity 1s;
+    }
+
+    .buttontitle{
+        text-align: center;
+        margin-top: 155px;
+        color: #F7941E;
+        /* transition: color 2000ms; */
+        transition: all 1s;
+    }
+
+.textup{
+    margin-top: 60px;
+    color: black; 
+}
 
 
 
+.listup{
+    opacity: 1 !important;
+}

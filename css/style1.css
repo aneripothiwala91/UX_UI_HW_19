@@ -109,6 +109,7 @@ p{
     top: 0px;
     background: rgba(253, 210, 68, 0.479);
     opacity: 0.22;
+    z-index: -1;
     }
 
 .button{

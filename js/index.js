@@ -1,5 +1,29 @@
 console.log("Your index.js file is loaded correc")
 
+console.log(".button")
+
+
+$('.circle').on("click", function(){
+
+    // $(this).children().css("border", "3px solid red")
+    
+    // $(this).children().animate({marginTop: "60px"});
+    // $(this).children().css({"color":"black"});
+    
+    $(this).children().toggleClass("textup");
+    // $(this).find("ul").toggleClass("listup");
+    $(this).children('ul').toggleClass("listup");
+    
+    $(this).next().next().css("borer", "3px solid red");
+    // alert(test);
+    
+    
+      });
+
+
+
+    
+
 // const circle1 = $("#circle1") 
 
 
@@ -31,23 +55,34 @@ console.log("Your index.js file is loaded correc")
 // }) 
 
 
-$('.circle').on("click", function(){
+
+// $('.circle').on("click", function(){
   
-  if ($(this).hasClass("circle1")){
-    $("#buttontitle1").addClass("active");
-    $("#buttonlist1").addClass("active");
-    $("#buttontitle2", "#buttontitle3", "#buttontitle4").removeClass("active");
-    $("#buttonlist1").css("display", "block");
-    $("#buttonlist2", "#buttonlist3", "#buttonlist4").css("display", "none");
-  }
+//   if ($(this).hasClass("circle1")){
+//     $("#buttontitle2, #buttontitle3, #buttontitle4").removeClass("active");
+//     $("#buttontitle1").toggleClass("active");
+//     $("#buttonlist1").toggleClass("active");
+//     // $(this).parent().find(".active").removeClass("active");
+    
+//     $("#buttonlist1").css("display", "block");
+//     $("#buttonlist2", "#buttonlist3", "#buttonlist4").css("display", "none");
+//   }
 
-   else if ($(this).hasClass("circle2")){
-        $("#buttontitle2").addClass("active");
-        $("#buttonlist2").addClass("active");
-        $("#buttontitle1", "#buttontitle2", "#buttontitle3").removeClass("active");
-        $("#buttonlist2").css("display", "block");
-        $("#buttonlist1", "#buttonlist2", "#buttonlist3").css("display", "none");
+//    else if ($(this).hasClass("circle2")){
+//         $("#buttontitle2").toggleClass("active");
+//         $("#buttonlist2").toggleClass("active");
+//         $("#buttontitle1", "#buttontitle2", "#buttontitle3").removeClass("active");
+//         $("#buttonlist2").css("display", "block");
+//         $("#buttonlist1", "#buttonlist2", "#buttonlist3").css("display", "none");
 
-  }
+//   }
 
-});
+// });
+
+
+
+
+
+  
+
+
