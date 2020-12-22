@@ -1,0 +1,280 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display:flex;
+    width: 90%;
+    margin: 0 5%;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.leftcontent{
+    padding-left: 20px;
+    flex: 1;
+    flex-basis: 400px;
+}
+
+.rightcontent{
+    padding-left: 20px;
+    flex: 1;
+    flex-basis: 400px;
+}
+
+.line {
+    border-left: 3px solid #F7941E;
+}
+
+p{
+    display: inline-block;
+    width: auto;
+}
+
+.leftcontent h1{
+    color: #F7941E;
+    margin-left: 10%;
+    font-size: 48px;
+    margin-bottom: -20px;
+}
+
+.leftcontent h1:hover {
+    color: #FFC000;
+}
+
+
+.leftcontent h2{
+    color: #F7941E;
+    margin-left: 10%;
+    font-size: 36px;
+}
+
+.leftcontent h2:hover {
+    color: #FFC000;
+}
+
+/* Navigation styles */
+
+.logo{
+    display: flex;
+    width: 198px;
+    height: 109px;
+    margin-left: -35px;
+    background-image:url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    }
+
+
+.logo:hover{
+    width: 220px;
+}
+
+
+.navigation {
+    justify-content: flex-end;
+    }
+
+
+
+.navigation a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F7941E;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: Bold;
+    margin: 20px;
+    margin-bottom: 0%;
+    }
+
+.rectangle{
+    position: absolute;
+    width: 75%;
+    height: 600px;
+    right: 0px;
+    top: 0px;
+    background: rgba(253, 210, 68, 0.479);
+    opacity: 0.22;
+    }
+
+.button{
+    display: inline-block;
+    background-color: #FFC000;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px ;
+    text-decoration: none;
+    width: 15%;
+    margin-left: 6%;
+}
+
+.button:hover {
+    background-color:#F7941E; 
+    color: white;
+    font-weight: bold;
+}
+
+
+/* PROJECT styles */
+
+.website{
+    margin-top: 70px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background: linear-gradient(to bottom, white 0%,white 20%,#000000 20%, #fdd344 20%, #FDD344 100%);
+    
+}
+
+.text{
+    margin-top: 80px;
+    margin-right: 20px;
+    max-width: 60%;
+    }
+
+.image1{
+    width: 80%;
+    border: 1px solid #DCDCDC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+    margin: 0 auto;
+    }
+
+.leftcontent2{
+    margin-left: 30px;
+    padding-left: 20px;
+    flex: 1;
+    flex-basis: 0%;
+    flex-basis: 400px;
+    }
+
+.rightcontent2{
+    margin-right: -100px;
+    padding-left: 20px;
+    flex: 1;
+    flex-basis: 0%;
+    flex-basis: 400px;
+    margin-right: -65px;
+    }
+
+.text2{
+    margin-top: 90px;
+    margin-left: 20%;
+    max-width: 60%;
+    }
+
+
+
+/* Footer styles */
+
+.footer h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 5%;
+    color: #FFC000;
+    }
+
+.footernav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+.footernavname {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+	margin-right:90px;
+    margin-left:40px;
+    margin-top:5%;
+    }
+
+.footernavname a{
+    color: #F7941E;
+    text-decoration: none;
+    }
+
+.circle {
+    background: #FFC000;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.footer1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDD344;
+    margin-top: 30px;
+    }
+
+
+/* mediaqueries */
+
+
+@media only screen and (max-width: 900px) {
+    /* .reverse {
+        flex-direction:row;
+    } */
+    .text2{
+        margin-left: 0px;
+    }
+
+    .leftcontent h1{
+        margin-left: 0%;
+    }
+
+    .leftcontent h2{
+        margin-left: 0%;
+    }
+
+    .button {
+        width: 30%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+}
+
+
+
+    /* @media only screen and (max-width: 1000px) {
+        .reverse {
+            flex-direction:row;
+        }
+        .text2{
+            margin-left: 0px;
+        }
+    } */
+
+
+@media only screen and (max-width: 1200px){
+
+    .button {
+        width: 30%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+}
