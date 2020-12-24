@@ -59,6 +59,8 @@ p{
     color: #F7941E;
     margin-left: 10%;
     font-size: 36px;
+    position: relative;
+    opacity:0;
 }
 
 .leftcontent h2:hover {
@@ -142,6 +144,16 @@ p{
     
 }
 
+.website:hover .image1 {
+    border: 3px solid purple;
+
+}
+
+.website:hover .text {
+    border: 3px solid red;
+
+}
+
 .text{
     margin-top: 80px;
     margin-right: 20px;
@@ -197,6 +209,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    transition: all 1s;
     }
 
 .footernavname {
