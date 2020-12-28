@@ -20,6 +20,7 @@
         padding-left: 20px;
         flex: 1;
         flex-basis: 400px;
+        
     }
     
     .aboutcontent h1{
@@ -31,8 +32,11 @@
     
     .aboutcontent h2{
         color: #F7941E;
-        
+        margin-bottom: 0px;
+        padding-bottom: 0px !important;
         font-size: 36px;
+        padding-left: 5px;
+       
       
     }
 
@@ -41,6 +45,27 @@
         max-width: 45%;
         font-size: 20px;
     }
+
+    /* #animate1{
+        display: flex;
+    
+    
+        animation-name: animationName;
+        animation-duration: 2s;
+        transition: ease-out;
+    }
+
+    @keyframes animationName {
+        from{flex-direction:column;
+        }
+        to{
+            flex-direction: row;
+            align-items: flex-end;
+        }
+    } */
+
+
+
 
     .button1{
         display: inline-block;
