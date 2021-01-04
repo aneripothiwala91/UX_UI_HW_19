@@ -60,7 +60,7 @@ p{
     margin-left: 10%;
     font-size: 36px;
     position: relative;
-    opacity:0;
+    /* opacity:0; */
 }
 
 .leftcontent h2:hover {
@@ -103,6 +103,12 @@ p{
     margin-bottom: 0%;
     }
 
+    .navigation:hover a {
+        text-decoration: underline;
+        
+    }
+
+
 .rectangle{
     position: absolute;
     width: 75%;
@@ -144,13 +150,37 @@ p{
     
 }
 
-.website:hover .image1 {
+/* .website:hover .image1 {
     border: 3px solid purple;
+
+} */
+
+
+.image1:hover {
+    width: 85%;
 
 }
 
-.website:hover .text {
+
+.imagelogo:hover{
+    width:35%;
+}
+
+
+/* .website:hover .text {
     border: 3px solid red;
+} */
+
+.text:hover h3 {
+    font-size: 30px;
+    /* border: 3px solid red; */
+
+}
+
+
+.text2:hover h3 {
+    font-size: 30px;
+    /* border: 3px solid red; */
 
 }
 

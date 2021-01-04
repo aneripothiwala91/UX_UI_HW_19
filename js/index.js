@@ -13,32 +13,35 @@ $('.circle').on("click", function(){
 });
 
 
-$('.circle1').on("click", function(){
-$(".footernav").css("margin-bottom", "200px");
-});
+// $('.circle1').on("click", function(){
+// $(".footernav").css("margin-bottom", "200px");
+// });
 
-$('.circle2').on("click", function(){
+$('.circle').on("click", function(){
     $(".footernav").css("margin-bottom", "300px");
     });
 
 
 
-
-
-$(".leftcontent h2").animate({ right:"-200px" , opacity: "1"  }, 2000)
-
+$(".aboutcontent h2").animate({ right:"-200px" , opacity: "1"  }, 2000)
 
 
 
+$(document).ready(function() {
+
+    $(".imagelogo1").hover(function(){
+       $(".imagelogo1").effect( "bounce", {times:1}, 800 );
+    });
+
+ });
 
 
 
-    //   $(document).ready(function() {
 
-    //     $("#imagelogo").click(function(){
-    //        $(".target").effect( "bounce", {times:1}, 1000 );
-    //     });
 
-    //  });
+
+
+
+
 
 
